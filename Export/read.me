@@ -8,7 +8,15 @@ group5_wordview.csv: Table of phrases that only appeared **after** the defined C
 
 +++++++++++ Columns +++++++++++
 tot_view_before_x: Total number of views during the late stage of the COVID-19 pandemic (2022-12-12 to 2023-03-19).
-totdat_YJwordview_before_x: Yeo- Johnson transformed 'tot_view_before_x'.
+totdat_YJwordview_before_x: Yeo- Johnson transformed 'tot_view_before_x' among the all phrases (group1-5).
+tot_view_after_x: Total number of views during the early stage of the defined stop date of COVID-19 pandemic (2023-03-20 to 2023-12-15).
+totdat_YJwordview_after_x	YJ: Yeo- Johnson transformed 'tot_view_after_x' among the all phrases (group1-5).
+YJwordview_before_x: Yeo- Johnson transformed 'tot_view_before_x' among the group1-3 phrases.
+YJwordview_after_x: Yeo- Johnson transformed 'tot_view_after_x' among the group1-3 phrases.
+sta_YJview_before_x: standardardized 'YJwordview_before_x'.
+sta_YJview_after_x: standardardized 'YJwordview_after_x'.
+diff_sta_YJ_view: 'sta_YJview_before_x' minus 'sta_YJview_after_x'.
++++++++++++++++++++++++++++++++
 ///////////
 
 words_pop: The total number of views for each valid phrase extracted using Jieba, ranked from 0 (most viewed) to 19815.
